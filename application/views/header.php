@@ -112,7 +112,7 @@
 				<!-- Header Icon -->
 				<div class="header-icons">
 					<a href="log-in.html" class="header-wrapicon1 dis-block">
-						<img src="/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
 
 					
