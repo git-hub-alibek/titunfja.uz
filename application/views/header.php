@@ -72,7 +72,7 @@
 			<div class="wrap_header">
 				<!-- Logo -->
 				<a href="http://titunfja.uz" class="logo">
-					<img src="/images/icons/logo.png" >
+					<img src="/images/icons/logoq.png" >
 				</a>
 				
 				<!-- Menu -->
@@ -307,8 +307,8 @@
 			<div class="slick1">
 				<div class="item-slick1 item1-slick1" style="background-image: url(images/banner-14.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-						<span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
-							EŃ SOŃǴÍ JAŃALÍQLAR
+						<span class="caption1-slide1 xl-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
+							ÓZBEKISTAN
 						</span>
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
@@ -326,8 +326,8 @@
 
 				<div class="item-slick1 item2-slick1" style="background-image: url(images/yoshlar.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-						<span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
-							EŃ SOŃǴÍ JAŃALÍQLAR
+						<span class="caption1-slide1 xl-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
+							ÓZBEKISTAN
 						</span>
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
@@ -345,8 +345,8 @@
 
 				<div class="item-slick1 item3-slick1" style="background-image: url(images/kenes.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-						<span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
-							EŃ SOŃǴÍ JAŃALÍQLAR
+						<span class="caption1-slide1 xl-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
+							ÓZBEKISTAN
 						</span>
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">

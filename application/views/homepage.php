@@ -4,7 +4,7 @@
     ?>
  
   
-			
+		data-fancybox="alibek"	
 	
     
 	
