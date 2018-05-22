@@ -24,3 +24,12 @@ class Dogerekler extends CI_Controller {
 	$this->load->view('dogerekler',$data);
 	}
 	}
+class Islenbeler extends CI_Controller {
+
+	
+	public function show($id)
+	{
+	$data['info']=$this->db->where('id',$id)->get('islenbeler')->row_array();
+	$this->load->view('islenbeler',$data);
+	}
+	}

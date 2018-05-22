@@ -29,6 +29,12 @@ public function dogerekler(){
 		$crud->set_field_upload('img','uploads');
 		$output=$crud->render();
 		$this->_example_output($output);
+}
+public function islenbeler(){
+		$crud=new grocery_CRUD();
+		$crud->set_field_upload('img','uploads');
+		$output=$crud->render();
+		$this->_example_output($output);
 
 	}public function seminar(){
 		$crud=new grocery_CRUD();
