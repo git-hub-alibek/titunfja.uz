@@ -103,16 +103,16 @@
 				<div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
 					<!-- Block3 -->
 					<?php foreach($islenbeler as $i):?>
-					<div class="block3">
-						<a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
+					<div class="block3 block3-img dis-block hov-img-zoom">
+						
 						<img src="/uploads/<?php echo $i['img'];?>" alt="IMG-blog">
-						</a>
+						
 
 						<div class="block3-txt p-t-14">
 							<h4 class="p-b-7">
 								<a class="m-text11" href="/news/show/<?php echo $i['id'];?>"><?php echo $i['text'];?>   </a>
 							</h4>
-						<span class="s-text6">on</span> <span class="s-text7"> <?php echo $i['data'];?> </span>
+						<span class="s-text6">on</span> <span class="s-text3"> <?php echo $i['data'];?> </span>
 
 							
 						</div>

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script type="text/javascript" src="/fancybox/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="fancybox/fancybox/jquery.easing-1.3.pack.js"></script>
+
 	<title>Jaslar awqamı</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,6 +39,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="/css/util.css">
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox-1.3.4.css"
 <!--===============================================================================================-->
 </head>
 <body class="animsition">
@@ -73,7 +80,7 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href="index.html"><strong>Bas bet</strong> </a>
+								<a href="http://titunfja.uz"><strong>Bas bet</strong> </a>
 							<!--	<ul class="sub_menu">
 									<li><a href="index.html">Homepage V1</a></li>
 									<li><a href="home-02.html">Homepage V2</a></li>
@@ -81,12 +88,10 @@
 								</ul>
 							</li> -->	
 
-							<li>
-								<a href="product.html"><strong>Jaslar awqamı</strong></a>
-							</li>
+							
 
 							<li class="sale-noti">
-								<a href="product.html"><strong>Súwretler</strong></a>
+								<a href="product.html"><strong>Jaslar awqamı</strong></a>
 							</li>
 
 							<li>
@@ -266,20 +271,13 @@
 
 					<li class="item-menu-mobile">
 						<a href="index.html">Bas bet</a>
-						<ul class="sub-menu">
-							<li><a href="index.html">Homepage V1</a></li>
-							<li><a href="home-02.html">Homepage V2</a></li>
-							<li><a href="home-03.html">Homepage V3</a></li>
-						</ul>
+						
 						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
 					</li>
 
-					<li>
-						<a href="#">Jaslar awqamı</a>
-					</li>
-
+					
 					<li class="sale-noti">
-						<a href="#">Súwretler</a>
+						<a href="#">Jaslar awqamı</a>
 					</li>
 
 					<li>
