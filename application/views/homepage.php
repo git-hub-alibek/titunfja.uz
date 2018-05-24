@@ -4,7 +4,7 @@
     ?>
  
   
-		data-fancybox="alibek"	
+			
 	
     
 	
@@ -35,9 +35,12 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 								
 										<!-- Button --> 
+										<a class="block2-name dis-block s-text12 p-b-5" href="/news/show/<?php echo $i['id'];?>"><?php echo $i['title'];?>
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
 											SU'WRETTI TOLÍQ ASHÍW
 										</button>
+								</a>
+										
 										
 									</div>
 								</div>
@@ -45,7 +48,7 @@
 
 							<div class="block2-txt p-t-20">
 								
-								<a class="block2-name dis-block s-text3 p-b-5" href="/news/show/<?php echo $i['id'];?>"><?php echo $i['title'];?>
+								<a class="block2-name dis-block s-text12 p-b-5" href="/news/show/<?php echo $i['id'];?>"><?php echo $i['title'];?>
 								
 								</a>
 								

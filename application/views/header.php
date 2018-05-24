@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script type="text/javascript" src="/fancybox/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="/fancybox/jquery-1.4.3.min.js">$(document).ready(function() {
+    $("a[rel=group]").fancybox({
+        'transitionIn' : 'none',
+        'transitionOut' : 'none',
+        'titlePosition' : 'over',
+        'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
+            return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? '   ' + title : '') + '</span>';
+        }
+    });
+});</script>
 <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.js"></script>
 <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
@@ -308,7 +317,7 @@
 				<div class="item-slick1 item1-slick1" style="background-image: url(images/banner-14.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 xl-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
-							ÓZBEKISTAN
+							ÓZBEKSTAN
 						</span>
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
@@ -327,7 +336,7 @@
 				<div class="item-slick1 item2-slick1" style="background-image: url(images/yoshlar.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 xl-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
-							ÓZBEKISTAN
+							ÓZBEKSTAN
 						</span>
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
@@ -346,7 +355,7 @@
 				<div class="item-slick1 item3-slick1" style="background-image: url(images/kenes.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 xl-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
-							ÓZBEKISTAN
+							ÓZBEKSTAN
 						</span>
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
